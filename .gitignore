@@ -1,0 +1,21 @@
+# Python venv
+venv/
+
+# Chroma DB
+chroma_db/
+
+# Cache files
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Streamlit cache
+.streamlit/
+
+# PDFs (optional—if you don't want to track them)
+documents/*.pdf
+
+# Models (if any)
+*.bin

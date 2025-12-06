@@ -1,0 +1,31 @@
+# Core LangChain Stack (all versions must match)
+langchain==0.2.12
+langchain-core==0.2.12
+langchain-community==0.2.12
+
+# Groq LLM Integration
+langchain-groq==0.1.4
+groq==0.9.0
+
+# Vector Store + Embeddings
+chromadb==0.5.5
+fastembed==0.7.4
+
+# PDF + Document Parsing
+pypdf==4.2.0
+pdfminer.six==20231228
+
+# ENV Management
+python-dotenv==1.0.1
+
+# Streamlit App UI
+streamlit==1.39.0
+
+# Toolbox Dependencies (safe + common)
+numpy==1.26.4
+requests==2.31.0
+tqdm==4.67.1
+tenacity==8.5.0
+PyYAML==6.0.3
+SQLAlchemy==2.0.23
+dataclasses-json==0.6.4
